@@ -7,7 +7,7 @@ package_dir = get_package_share_directory("fast_lio")
 
 CONFIG_COMMON_DIR = PathJoinSubstitution([package_dir, "config"])
 
-rviz_cfg = PathJoinSubstitution([package_dir, "rviz", "fastlio.rviz"])
+rviz_cfg = PathJoinSubstitution([package_dir, "rviz_cfg", "fastlio.rviz"])
 
 
 def generate_launch_description():
